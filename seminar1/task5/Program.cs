@@ -4,11 +4,11 @@
 // 2 -> " -2, -1, 0, 1, 2"
 
 Console.WriteLine("Введите число: ");
-int number = Convert.ToInt32(Console.ReadLine());
+int numberA = Convert.ToInt32(Console.ReadLine());
 
-int N = -number;
-while(N <= number)
+int numberB = -numberA;
+while(numberB <= numberA)
 {
-    Console.Write(N + " ");
-    N = N + 1;
+    Console.Write(numberB + " ");
+    numberB = numberB + 1;
 }
