@@ -12,10 +12,10 @@ Console.WriteLine("Число не положительное или ноль!!!
 }
 else
 {
-int b = 1;
+int b = 2;
 while(b <= a)
 {
     Console.Write(b + " ");
-    b = b + 1;
+    b = b + 2;
 }
 }
