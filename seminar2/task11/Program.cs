@@ -11,5 +11,5 @@ Console.WriteLine($"Сгенерировалось случайное число
 int digit3 = number % 10;
 int digit1 = number / 100;
 
-int result = (digit1 * 10 + digit3);
+int result = digit1 * 10 + digit3;
 Console.WriteLine($"Новое двухзначное число {result}");
