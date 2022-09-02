@@ -5,7 +5,7 @@
 // 7 -> да
 // 1 -> нет
 
-Console.WriteLine("Введите числом день недели, для проверки выходной ли день: ");
+Console.WriteLine("Введите числом день недели, для проверки выходной ли: ");
 int number = Convert.ToInt32(Console.ReadLine());{
 
 if (number == 1)
@@ -39,6 +39,6 @@ if (number == 7)
 
 if (number < 1 || number > 7) 
 {
-    Console.WriteLine("В неделе всего 7 дней!!!))");
+    Console.WriteLine("В неделе 7 дней!!!))");
 }
 }

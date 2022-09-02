@@ -6,7 +6,7 @@
 // 918 -> 1
 
 Random rand = new Random();
-int number = rand.Next(10, 1000);
+int number = rand.Next(100, 1000);
 Console.WriteLine($"Сгенерировалось случайное число {number}");
 int digit2 = number % 100;
 int result = digit2 / 10;
