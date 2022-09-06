@@ -9,14 +9,14 @@ for (int n = 0; n < array.Length; n++)
 int L = array.Length;
 
 Console.WriteLine($"Длина массива - {L}");
-Console.WriteLine("Первоначальный массив:");
+Console.Write("Первоначальный массив: ");
 
 foreach (int ar in array)
 {
 Console.Write(ar + " ");
 }
 
-Console.WriteLine("");
+Console.Write("Новый массив: ");
 
 int i = 0;
 int j = 0;
